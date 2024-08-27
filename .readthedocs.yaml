@@ -1,5 +1,4 @@
 version: 2
-# Set the OS, Python version and other tools you might need
 build:
   os: ubuntu-22.04
   tools:
@@ -18,5 +17,5 @@ python:
         - all
     - requirements: docs/requirements_docs.txt
 
-# submodules:
-#   include: all
+submodules:
+  include: all
